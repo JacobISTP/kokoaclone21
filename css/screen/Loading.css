@@ -1,0 +1,86 @@
+.loading {
+  background-color: #e67853;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  animation: hideScreen 0.2s ease-in-out forwards;
+  animation-delay: 3s;
+}
+
+.loading img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.dots {
+  height: 55px;
+  background-color: #e4e7ee;
+  border-radius: 27.5px;
+  position: relative;
+  top: -70px;
+  left: -200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 15px;
+  align-items: center;
+}
+
+.dots__loading {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #b4b4b4;
+  animation: gray 1.5s infinite ease-in-out;
+  display: flex;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.dots__loading:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dots__loading:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.dots__balloon {
+  position: absolute;
+  background-color: #e4e7ee;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dots__balloon:nth-child(4) {
+  top: 35px;
+  left: -5px;
+}
+
+.dots__balloon:nth-child(5) {
+  width: 10px;
+  height: 10px;
+  top: 50px;
+  left: -15px;
+}
+
+@keyframes gray {
+  20% {
+    background-color: #808080;
+  }
+  40% {
+    background-color: #b4b4b4;
+  }
+}
+
+@keyframes hideScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

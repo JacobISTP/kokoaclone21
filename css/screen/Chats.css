@@ -1,0 +1,38 @@
+.main__screen > a {
+  text-decoration: none;
+}
+
+#component__nav-bar__message-alarm {
+  will-change: transform;
+  animation: alarmMove 1.5s ease-in-out infinite;
+}
+
+@keyframes alarmMove {
+  25% {
+    background-color: black;
+    transform: scale(1.1) translateY(-1px);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: none;
+  }
+}
+
+.component__nav-bar__list {
+  transform: translateY(50px) rotateY(90deg);
+  animation: iconMove 0.3s ease-in-out forwards;
+}
+
+@keyframes iconMove {
+  from {
+    transform: translateY(50px) rotateX(90deg);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.component__nav-bar__list:first-child,
+.component__nav-bar__list:last-child {
+  animation-delay: 0.1s;
+}

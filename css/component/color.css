@@ -1,0 +1,11 @@
+.color--light-gray {
+  color: var(--light-gray);
+}
+
+.color--gray {
+  color: var(--gray);
+}
+
+.color--orange {
+  color: var(--orange);
+}

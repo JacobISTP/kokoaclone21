@@ -1,0 +1,75 @@
+.component__people {
+  margin-bottom: 20px;
+  width: 100% content-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.component__people__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component__people__column__img--bg {
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+
+.component__people__column__name--bg {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.component__people__column__img--md {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+
+.component__people__column__name--md {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.component__people__column__chat--md {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gray);
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.component__people__column__img--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+
+.component__people__column__name--sm {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.component__people__column__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.component__people__column__block * {
+  margin: 3px 0px;
+}
+
+#component__people__column__img--none {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}

@@ -1,0 +1,16 @@
+.friends__screen__info {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fafafa;
+  margin-bottom: 25px;
+}
+
+.friends__screen__info i {
+  color: var(--light-gray);
+}
+
+.component__people__column__count {
+  font-size: 22px;
+  margin-right: 5px;
+}

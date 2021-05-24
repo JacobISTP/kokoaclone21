@@ -1,0 +1,29 @@
+.circle__bg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle__sm {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.circle__bgcolor--black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.circle__bgcolor--orange {
+  background-color: var(--orange);
+}
+
+.component__icon__update {
+  position: absolute;
+  top: -100%;
+  right: -30%;
+}

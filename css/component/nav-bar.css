@@ -1,0 +1,37 @@
+.component__nav-bar {
+  background-color: var(--orange);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  border-top: 1px solid var(--light-gray);
+  z-index: 3;
+}
+
+.component__nav-bar__ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.component__nav-bar__list {
+  position: relative;
+}
+
+.component__nav-bar__icon i {
+  color: #2f363e;
+  font-size: 35px;
+}
+
+#component__nav-bar__message-alarm {
+  position: absolute;
+  top: -20%;
+  right: -25%;
+}
+
+#component__nav-bar__update {
+  position: absolute;
+  top: -10%;
+  right: -20%;
+}

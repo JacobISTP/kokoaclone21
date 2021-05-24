@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in</title>
+  </head>
+  <body>
+    <div class="Status-bar">
+      <div class="Status-bar__column">
+        <span class="Status-bar__column__service">No Service</span
+        ><i class="fas fa-wifi fa-xs"></i>
+      </div>
+      <div class="Status-bar__column">
+        <span>06:02</span>
+      </div>
+      <div class="Status-bar__column">
+        <span class="Status-bar__column__battery">82%</span>
+        <i
+          class="
+            fas
+            fa-battery-three-quarters
+            Status-bar__column__battery
+            fa-xs
+          "
+        ></i>
+        <i class="fas fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <header class="Log-in__header">
+      <h1 class="Log-in__header__title">Welcome to KokoaTalk</h1>
+      <h4 class="Log-in__header__article">If you have a Kokoa Account,</h4>
+      <h4 class="Log-in__header__article">
+        log in with your email or phone number.
+      </h4>
+    </header>
+    <form class="Log-in__main" action="friends.html" method="get">
+      <input type="email" name="e-mail" placeholder="Email or phone number" />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        minlength="10"
+      />
+      <input type="submit" value="Log in" class="Log-in__main__btn" />
+      <a class="Log-in__main__btn" href="#">
+        <span>Sign up</span>
+      </a>
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <img src="img/peterrabbit.gif" />
+      <span>Your screen is too big!</span>
+      <span>Loose your width, please...</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

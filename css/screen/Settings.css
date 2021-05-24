@@ -1,0 +1,47 @@
+#setting__screen {
+  margin-top: 120px;
+}
+
+.setting-box {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 20px 0px;
+}
+
+.setting-box:not(:first-child, :last-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.setting-box__column {
+  display: flex;
+  align-items: center;
+}
+
+.setting-box__column div {
+  width: 35px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.setting-box__column:last-child {
+  font-size: 26px;
+}
+
+.setting-box__column h2 {
+  font-size: 28px;
+}
+
+.setting-box__column > i {
+  margin-left: 15px;
+}
+
+.settings:first-child {
+  margin-bottom: 35px;
+}
+
+.settings:last-child {
+  padding-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}

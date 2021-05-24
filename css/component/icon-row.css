@@ -1,0 +1,32 @@
+.screen-box {
+  padding-top: 20px;
+}
+
+.screen__btns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.screen__btns * {
+  color: #1e1e1e;
+}
+
+.screen__btns__column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.screen__btns__column h3 {
+  font-size: 20px;
+}
+
+.screen__btns__column img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}

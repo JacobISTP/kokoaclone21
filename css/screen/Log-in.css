@@ -1,0 +1,74 @@
+.Log-in__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.Log-in__header__title {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.Log-in__header__article {
+  color: var(--gray);
+  font-size: 22px;
+}
+
+.Log-in__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Log-in__main input,
+.Log-in__main span {
+  font-family: "Gaegu", cursive;
+  font-size: 25px;
+  border: none;
+  outline: none;
+}
+
+.Log-in__main input:not([type="submit"]) {
+  width: 80%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.Log-in__main input[type="submit"] {
+  margin-top: 30px;
+}
+
+.Log-in__main input:not([type="submit"]):focus {
+  border-color: var(--orange);
+}
+
+.Log-in__main__btn {
+  background-color: var(--orange);
+  color: whitesmoke;
+  width: 30%;
+  cursor: pointer;
+  padding: 10px 0px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+a.Log-in__main__btn {
+  height: 50px;
+  text-decoration: none;
+}
+
+a:last-child {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 30px;
+}

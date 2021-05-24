@@ -1,0 +1,12 @@
+.title-border--top {
+  border-top: 1px solid var(--light-gray);
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-border--top * {
+  color: var(--gray);
+  font-size: 18px;
+  font-weight: 700;
+}

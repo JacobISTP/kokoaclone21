@@ -1,0 +1,29 @@
+.component__alt-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px var(--horizontal-space) 35px var(--horizontal-space);
+}
+
+.component__alt-header__title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.component__alt-header__icon {
+  width: 33%;
+}
+
+.component__alt-header__icon:first-child {
+  margin-right: auto;
+}
+
+.component__alt-header__icon:nth-child(2) {
+  text-align: center;
+}
+
+.component__alt-header__icon:last-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}

@@ -1,0 +1,27 @@
+.header-box {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  top: 0px;
+}
+
+.component__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px var(--horizontal-space) 10px var(--horizontal-space);
+}
+
+.component__header__title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.component__header__icon span {
+  margin-left: 25px;
+}
+
+.component__header__icon a {
+  position: relative;
+}

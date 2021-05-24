@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap");
+@import "variables.css";
+
+/* Components*/
+@import "component/reset.css";
+@import "component/status-bar.css";
+@import "component/header.css";
+@import "component/people.css";
+@import "component/nav-bar.css";
+@import "component/circle.css";
+@import "component/color.css";
+@import "component/title-border--top.css";
+@import "component/icon-row.css";
+@import "component/alt-header.css";
+@import "component/no-mobile.css";
+
+/* Screens*/
+@import "screen/Loading.css";
+@import "screen/Log-in.css";
+@import "screen/Friends.css";
+@import "screen/Chats.css";
+@import "screen/Find.css";
+@import "screen/More.css";
+@import "screen/Settings.css";
+@import "screen/Chat__Snow.css";
+@import "screen/Chat__Quokka.css";
+@import "screen/Chat__Over.css";
+
+body {
+  font-family: "Gaegu", cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main__screen {
+  margin-top: 120px;
+  padding: 0px var(--horizontal-space);
+}

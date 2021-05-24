@@ -1,0 +1,41 @@
+.Status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.Status-bar__column {
+  width: 33%;
+}
+
+.Status-bar__column__service {
+  margin-right: 10px;
+}
+
+.Status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.Status-bar__column:nth-child(2) span,
+.Status-bar__column:nth-child(3) span {
+  font-weight: 700;
+}
+
+.Status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Status-bar__column__battery {
+  margin-right: 5px;
+}
+
+#component__status-bar__update {
+  position: absolute;
+  top: -50%;
+  right: -10%;
+}

@@ -1,0 +1,33 @@
+#more__suggestions {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+#more__suggestions h5 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.component__people__column:last-child {
+  color: var(--gray);
+}
+
+#suggestions__box {
+  margin-top: 10px;
+}
+
+#suggestions__box :first-child .screen__btns__column {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: var(--orange);
+}
+
+#suggestions__box .screen__btns__column i {
+  color: whitesmoke;
+}
+
+.screen__btns__column .component__icon__update {
+  position: relative;
+}
