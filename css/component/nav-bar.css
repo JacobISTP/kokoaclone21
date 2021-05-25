@@ -2,7 +2,7 @@
   background-color: var(--orange);
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
   padding: 20px 0px;
   border-top: 1px solid var(--light-gray);
@@ -34,4 +34,32 @@
   position: absolute;
   top: -10%;
   right: -20%;
+}
+
+.component__nav-bar__list {
+  transform: translateY(50px) rotateY(90deg);
+  animation: iconMove 0.3s ease-in-out forwards;
+}
+
+.component__nav-bar__list:first-child,
+.component__nav-bar__list:last-child {
+  animation-delay: 0.1s;
+}
+
+#nav-bar__friends .component__nav-bar__list {
+  animation-delay: 3.2s;
+}
+
+#nav-bar__friends .component__nav-bar__list:first-child,
+#nav-bar__friends .component__nav-bar__list:last-child {
+  animation-delay: 3.3s;
+}
+
+@keyframes iconMove {
+  from {
+    transform: translateY(50px) rotateX(90deg);
+  }
+  to {
+    transform: none;
+  }
 }
